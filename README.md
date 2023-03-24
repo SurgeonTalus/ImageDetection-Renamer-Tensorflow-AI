@@ -13,8 +13,8 @@ Select a folder with images. Tensorflow will create a new name of the images bas
 <h2><b>How to Use</b></h2>
 <ol>
   <li>Install the dependencies listed above.</li>
-  <li>Download or create a set of image files to process.</li>
-  <li>Run the script using a Python interpreter.</li>
+  <li>Put your images in a folder.</li>
+  <li>Run the script. Open terminal, type cd "path to folder", hit enter. Then tpye  "python3 RenameImageAI Tensorflow Github.py" .</li>
   <li>A GUI window will appear allowing you to select the folder containing the image files.</li>
   <li>The script will process each image file in the selected folder, renaming them with the predicted object name and a version number if necessary.</li>
   <li>The original image files will be replaced with the renamed files.</li>
