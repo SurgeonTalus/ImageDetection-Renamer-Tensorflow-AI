@@ -1,4 +1,4 @@
-# ImageDetectionRenamer-LocalAI-IntelOnly-
+# ImageDetectionRenamer LocalAI IntelOnly
 Select a folder with images. Tensorflow will create a new name of the images based on their content. 
 
 <h1><b>Description</b></h1>
