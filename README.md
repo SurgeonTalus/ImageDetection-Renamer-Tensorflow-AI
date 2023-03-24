@@ -11,9 +11,9 @@ Select a folder with images. Tensorflow will create a new name of the images bas
 <p>To install these dependencies on IntelMac, you can use the following command:</p>
 <pre><code>pip install tkinter tensorflow</code></pre>
 <p>M1 To install these dependencies, you can use the following command:</p>
-<h2>Install:</h2>
+<h2>Get Tensorflow working on M1:</h2>
 <p>Miniconda3 macOS Apple M1 64-bit pkg from <a href="https://docs.conda.io/en/latest/miniconda.html">https://docs.conda.io/en/latest/miniconda.html</a></p>
-<p>Open terminal and run these lines:</p>
+<p>Open terminal and run these lines separate:</p>
 <pre><code>conda install -c apple tensorflow-deps
 pip install tensorflow-macos
 pip install tensorflow-metal
