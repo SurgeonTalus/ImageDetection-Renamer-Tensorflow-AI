@@ -1,4 +1,4 @@
-# ImageDetectionRenamer LocalAI IntelOnly
+# ImageDetectionRenamer LocalAI
 Select a folder with images. Tensorflow will create a new name of the images based on their content. 
 
 <h1><b>Description</b></h1>
@@ -8,8 +8,24 @@ Select a folder with images. Tensorflow will create a new name of the images bas
   <li><code>tkinter</code>: for the GUI used to select the folder.</li>
   <li><code>tensorflow</code>: for the image processing and object detection.</li>
 </ul>
-<p>To install these dependencies, you can use the following command:</p>
+<p>To install these dependencies on IntelMac, you can use the following command:</p>
 <pre><code>pip install tkinter tensorflow</code></pre>
+<p>M1 To install these dependencies, you can use the following command:</p>
+<h2>Install:</h2>
+<p>Miniconda3 macOS Apple M1 64-bit pkg from <a href="https://docs.conda.io/en/latest/miniconda.html">https://docs.conda.io/en/latest/miniconda.html</a></p>
+<p>Open terminal and run these lines:</p>
+<pre><code>conda install -c apple tensorflow-deps
+pip install tensorflow-macos
+pip install tensorflow-metal
+
+conda install notebook -y
+
+pip install numpy  --upgrade
+pip install pandas  --upgrade
+pip install matplotlib  --upgrade
+pip install scikit-learn  --upgrade
+pip install scipy  --upgrade
+pip install plotly  --upgrade</code></pre>
 <h2><b>How to Use</b></h2>
 <ol>
   <li>Install the dependencies listed above.</li>
