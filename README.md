@@ -24,6 +24,9 @@ The script will process each image file in the selected folder, renaming them wi
 The original image files will be replaced with the renamed files.
 Note: The script expects the image files to be in JPEG or PNG format, and will only process files with those extensions. If the script encounters any errors during processing, it will print an error message but continue processing the remaining images.
 
+![Screenshot](Choose%20Files.png)
+![Screenshot](Choose Files.png)
+
 https://github.com/SurgeonTalus/ImageDetectionRenamer-LocalAI-IntelOnly-/blob/main/Choose%20Files.png
 
 https://github.com/SurgeonTalus/ImageDetectionRenamer-LocalAI-IntelOnly-/blob/main/Renamed%20Files.png
